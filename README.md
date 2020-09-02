@@ -1,2 +1,2 @@
-# basic-html-chewylang
-D&amp;S HW #1: Git &amp; HTML Review
+# D&S HW1: Git & HTML Review
+HTML/Git Review Assignment for MSIS Data and Systems
