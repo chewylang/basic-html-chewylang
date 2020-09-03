@@ -8,11 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <title>Home</title>
+    <link rel="stylesheet" href="css/books.css">
+    <title>Book List</title>
   </head>
   <body>
-    <ul class="nav nav-pills nav-justified bg-dark">
+    <ul class="nav nav-pills nav-justified bg-light">
   <li class="nav-item">
     <a class="nav-link" href="index.html">Home</a>
   </li>
@@ -23,8 +23,88 @@
     <a class="nav-link" href="about.html">Info</a>
   </li>
 </ul>
-
-<h1>bust</h1>
+<a href="https://form.hhpl.on.ca/_Template/Get/c63dce89-2ec9-4ba8-bb77-a98b010d5a44/en/rotatingimages/defaultInterior/defaultInteriorBanner.jpg">
+<img src="img/books.jpg" class="img-fluid" alt="books">
+</a>
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Title</th>
+      <th scope="col">Author(s)</th>
+      <th scope="col">Year Published</th>
+      <th scope="col">Page Count</th>
+      <th scope="col">MSRP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Harry Potter and the Philosopher's Stone</td>
+      <td>J.K. Rowling</td>
+      <td>1997</td>
+      <td>223</td>
+      <td>$10.99</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>The Little Prince</td>
+      <td>Antoine de Saint-Exupery</td>
+      <td>1943</td>
+      <td>96</td>
+      <td>$7.99</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>The Hobbit</td>
+      <td>J. R. R. Tolkein</td>
+      <td>1937</td>
+      <td>310</td>
+      <td>$15.99</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>And Then There Were None</td>
+      <td>Agatha Christie</td>
+      <td>1939</td>
+      <td>272</td>
+      <td>$8.99</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Dream of the Red Chamber</td>
+      <td>Cao Xuequin</td>
+      <td>1791</td>
+      <td>2500</td>
+      <td>$18.99</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div class = "form-text">
+  Add A book:<p>
+</div>
+<form>
+  <div class="form-row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Title">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Author(s)">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Year Published">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Page Count">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="MSRP">
+    </div>
+  </div>
+  <br>
+  <center><button type="submit" class="btn btn-primary">Add Book</button></center>
+</form>
 
   </body>
 </html>
