@@ -1,0 +1,10 @@
+body{
+  background-color: #2d2d2d;
+}
+
+#intro{
+  font-size: 150%;
+  font-style: bold;
+  color:white;
+  text-align: center;
+}
